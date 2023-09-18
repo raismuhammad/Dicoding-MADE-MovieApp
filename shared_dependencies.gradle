@@ -1,0 +1,17 @@
+dependencies {
+    implementation rootProject.ext.core_ktx
+    implementation rootProject.ext.appcompat
+    implementation rootProject.ext.material
+    implementation rootProject.ext.constraint
+    testImplementation rootProject.ext.junit
+    androidTestImplementation rootProject.ext.test_junit
+    androidTestImplementation rootProject.ext.test_espresso
+    implementation rootProject.ext.multidex
+    implementation rootProject.ext.livedata
+    implementation rootProject.ext.viewmodel
+    implementation rootProject.ext.activity
+    implementation rootProject.ext.glide
+
+    implementation rootProject.ext.koin_core
+    implementation rootProject.ext.koin_android
+}
