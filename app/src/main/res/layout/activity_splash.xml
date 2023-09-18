@@ -15,9 +15,8 @@
         android:textSize="28sp"
         android:textAllCaps="true"
         android:textStyle="bold"
-        android:fontFamily="@font/inter_extrabold"
-        android:layout_gravity="center"
-        />
+        android:fontFamily="@font/inter_extra_bold"
+        android:layout_gravity="center" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

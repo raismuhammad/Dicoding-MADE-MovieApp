@@ -14,4 +14,6 @@ dependencies {
 
     implementation rootProject.ext.koin_core
     implementation rootProject.ext.koin_android
+
+    debugImplementation rootProject.ext.leakcanary
 }

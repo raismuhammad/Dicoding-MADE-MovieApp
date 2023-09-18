@@ -1,13 +1,8 @@
-package com.raisproject.movieapp.core.data.source
+package com.raisproject.core.data
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.map
-import com.raisproject.core.data.NetworkBoundResource
-import com.raisproject.core.data.Resource
 import com.raisproject.core.data.source.local.LocalDataSource
 import com.raisproject.core.data.source.remote.RemoteDataSource
 import com.raisproject.core.data.source.remote.network.ApiResponse
-import com.raisproject.core.data.source.remote.response.MoviesResponse
 import com.raisproject.core.data.source.remote.response.ResultMovies
 import com.raisproject.core.domain.model.Movie
 import com.raisproject.core.domain.repository.IMovieRepository

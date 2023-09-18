@@ -30,4 +30,7 @@ ext {
     // viewPager
     view_pager_2 = 'androidx.viewpager2:viewpager2:1.0.0'
 
+    // leakcanary
+    leakcanary = 'com.squareup.leakcanary:leakcanary-android:2.10'
+
 }

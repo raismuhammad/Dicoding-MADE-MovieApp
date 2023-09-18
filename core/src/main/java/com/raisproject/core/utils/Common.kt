@@ -1,17 +1,9 @@
-import android.content.Context
 import android.widget.ImageView
-import android.widget.Toast
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.raisproject.core.R
 import com.raisproject.core.utils.Constant
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
-
-fun showToast(context: Context, message: String) {
-    Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
-}
 
 fun ImageView.loadImage(url: String?) {
     Glide.with(this.context)
