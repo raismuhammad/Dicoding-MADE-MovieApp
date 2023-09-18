@@ -8,7 +8,7 @@ object DataMapper {
     fun mapResponsesToEntities(input: List<ResultMovies>): List<MovieEntity> {
         val moviesList = ArrayList<MovieEntity>()
         input.map {
-            val movies = com.raisproject.core.data.source.local.entity.MovieEntity(
+            val movies = MovieEntity(
                 id = it.id,
                 title = it.title,
                 original_title = it.original_title,

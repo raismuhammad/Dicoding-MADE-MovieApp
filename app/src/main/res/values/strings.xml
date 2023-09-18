@@ -1,15 +1,7 @@
 <resources>
     <string name="app_name">Movie App</string>
-    <string name="popular">Popular</string>
-    <string name="top_rated">top rated</string>
-    <string name="up_coming">up coming</string>
-    <string name="now_playing">now playing</string>
-    <string name="title_movie">Movie</string>
-    <string name="hello_blank_fragment">Now Playing Fragment</string>
-    <string name="title_tv">Tv</string>
     <string name="title_favorite">Favorite</string>
     <string name="favorite">Favorite\n</string>
-    <string name="settings">settings</string>
     <string name="popularity">Popularity:</string>
     <string name="release_date">Release date:</string>
     <string name="original_title">Original title:</string>
