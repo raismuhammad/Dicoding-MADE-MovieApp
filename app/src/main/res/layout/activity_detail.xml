@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue1"
-    tools:context=".ui.detail.DetailActivity">
+    tools:context=".ui.detail.DetailActivity"
+    tools:ignore="Overdraw">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,7 +20,8 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
 
                 <ImageView
                     android:id="@+id/iv_backdrop"
@@ -95,7 +97,8 @@
                                         android:maxLines="2"
                                         android:textSize="22sp"
                                         android:textStyle="bold"
-                                        android:textColor="@color/white" />
+                                        android:textColor="@color/white"
+                                        tools:ignore="TooDeepLayout" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -108,11 +111,13 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:gravity="center"
-                                        android:orientation="horizontal">
+                                        android:orientation="horizontal"
+                                        tools:ignore="UseCompoundDrawables">
                                         <ImageView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:layout_marginEnd="4dp"/>
+                                            android:layout_marginEnd="4dp"
+                                            android:src="@drawable/ic_star_rate"/>
 
                                         <TextView
                                             android:id="@+id/tv_vote_average"
@@ -145,7 +150,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_margin="8dp"
                                 android:weightSum="3"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:baselineAligned="false">
 
                                 <LinearLayout
                                     android:layout_width="0dp"
@@ -155,7 +161,8 @@
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:orientation="vertical">
+                                        android:orientation="vertical"
+                                        tools:ignore="UselessParent">
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -185,7 +192,8 @@
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:orientation="vertical">
+                                        android:orientation="vertical"
+                                        tools:ignore="UselessParent">
 
                                         <TextView
                                             android:layout_width="wrap_content"
@@ -216,7 +224,8 @@
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:orientation="vertical">
+                                        android:orientation="vertical"
+                                        tools:ignore="UselessParent">
 
                                         <TextView
                                             android:layout_width="wrap_content"

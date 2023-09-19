@@ -1,5 +1,6 @@
 package com.raisproject.core.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -12,6 +13,7 @@ class NowPlayingAdapter : RecyclerView.Adapter<NowPlayingAdapter.NowPlayingViewH
     private var listData = ArrayList<Movie>()
     var onItemClick: ((Movie) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListData: List<Movie>?) {
         if (newListData == null) return
         listData.clear()
